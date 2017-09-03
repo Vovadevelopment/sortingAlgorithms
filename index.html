@@ -3,11 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="libs/jquery.js"></script>
-    <script src="libs/pooper.js"></script>
-    <script src="libs/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <form>
+                <div class="form-group">
+                    <label for="num">Number of Elements in Array</label>
+                    <input type="email" class="form-control" id="num" aria-describedby="emailHelp" placeholder="Number">
+                </div>
+                <div class="form-group">
+                    <label for="min">Min</label>
+                    <input type="password" class="form-control" id="min" placeholder="Min">
+                </div>
+                <div class="form-group">
+                    <label for="max">Max</label>
+                    <input type="password" class="form-control" id="max" placeholder="Max">
+                </div>
+                <button class="btn btn-primary">Create Array</button>
+            </form>
+        </div>
+        <div class="col">
+            <div class="placeForLog">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="libs/jquery.js"></script>
+<script src="libs/popper.js"></script>
+<script src="libs/bootstrap.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
