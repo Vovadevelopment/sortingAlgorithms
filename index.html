@@ -14,35 +14,29 @@
 
 <div class="container-fluid">
     <div class="row">
-        <table class="table table-hover sorting-table">
-            <thead>
-            <tr>
-                <th>#</th>
-                <th>First Name </th>
-                <th>Last Name</th>
-                <th>Username</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="col">
+            <div class="form-group">
+                <label for="num">Number of Elements in Array</label>
+                <input type="number" class="form-control" id="num" aria-describedby="emailHelp" placeholder="Number">
+            </div>
+            <div class="form-group">
+                <label for="min">Min</label>
+                <input type="number" class="form-control" id="min" placeholder="Min">
+            </div>
+            <div class="form-group">
+                <label for="max">Max</label>
+                <input type="number" class="form-control" id="max" placeholder="Max">
+            </div>
+            <button class="btn btn-primary" id="arrcreate">Create Array</button>
+            <button type="button" class="btn btn-danger"id="clear">Clear block</button>
+            <button type="button" class="btn btn-success" id="change">in-line block</button>
+        </div>
+        <div class="col">
+            <div class="placeForLog">
+
+            </div>
+        </div>
+
     </div>
 </div>
 
