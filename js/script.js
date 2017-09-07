@@ -21,6 +21,13 @@ var arrayOfObj = [
     }
 ];
 
+function sortByKey(array, key) {
+    return array.sort(function(a, b) {
+        var x = a[key]; var y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
+}
+
 function compileElements(array) {
     for (var i = 0; i <array.length; i++){
 
@@ -46,14 +53,6 @@ $('.btn-weight').click(function () {
     alert("weight")
 
 });
-
-
-function sortByKey(key) {
-    function compareNumeric(a, b) {
-        return a[key] - b[key];
-    }
-    return compareNumeric;
-}
 
 
 
