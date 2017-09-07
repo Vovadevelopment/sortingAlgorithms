@@ -1,20 +1,9 @@
-body {
-  padding: 50px; }
 
-.placeForLog {
-  height: 500px;
-  width: 500px;
-  overflow: auto;
-  padding: 50px;
-  background: #429ad2;
-  color: #ffffff; }
-  .placeForLog span {
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 20px; }
-  .placeForLog.inline span {
-    display: inline-block;
-    padding: 0 10px; }
-
+.btn-success {
+    text-align: center;
+    
+}
 /*# sourceMappingURL=common.css.map */
+.table-bordered {
+    cursor: pointer;
+}
